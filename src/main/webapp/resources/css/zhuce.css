@@ -1,0 +1,57 @@
+ 
+fieldset{
+	width:600px;
+	height:500px;
+	margin:10px;
+	font-size:18px;
+	border:1px dotted ;
+	align:center;
+}
+p{
+   font-size:20px;
+   color:black;
+   text-align:center;
+}
+h1{
+   font-size:25px;
+   letter-spacing:20px;
+   color:black;
+   text-align:center;
+}
+
+
+
+table{
+     font-size:20px;
+     color:
+     line-height:30px;
+     width:50%;
+     height:300px;
+     align:center;
+     margin:0px auto;
+}
+lable{
+    font-size:17px;
+    color:black;
+    text-align:left;
+}
+.userpro{
+    text-decoration:none;
+    color:blue;
+    
+    }
+ h2 {
+    font-size:17px;
+    color:black;
+ }   
+ .a2 {
+	width: 100px;
+	height: 30px;
+	margin-left: 3px;
+	padding: 2px;
+}
+
+.error {
+	color:red;
+	font-size:15px;
+}

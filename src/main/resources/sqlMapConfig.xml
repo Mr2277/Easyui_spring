@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    
+    <!-- 全局setting配置，根据需要添加 -->
+    
+    <!-- 配置别名 -->
+    <!-- <typeAliases>
+        批量扫描别名
+        <package name="com.show.model"/>
+    </typeAliases> -->
+    <!--  
+    <typeAliases>
+            <typeAlias type="com.show.model.Designer" alias="designer" />
+            <typeAlias type="com.show.model.Menu" alias="menu" />
+            <typeAlias type="com.show.model.Style" alias="style" />
+             <typeAlias type="com.show.model.Apply" alias="apply" />
+             <typeAlias type="com.show.model.Ensharine" alias="ensharine" />
+            <typeAlias type="com.show.model.Test" alias="test" />
+            <typeAlias type="com.show.model.Ensharine" alias="ensharine" />
+            <typeAlias type="com.show.model.Apply" alias="apply" />
+            <typeAlias type="com.show.model.Browse" alias="browse" />
+            -->
+            <!-- cxh -->
+            <!--  
+	        <typeAlias type="com.show.model.Admin" alias="admin" />
+	        <typeAlias type="com.show.model.Product" alias="product" />
+	        <typeAlias type="com.show.model.Shopcart" alias="shopcart" />
+	        <typeAlias type="com.show.model.User" alias="user" />
+	        <typeAlias type="com.show.model.Category" alias="category" />
+   </typeAliases>
+         -->
+    <!-- 配置mapper
+    由于使用spring和mybatis的整合包进行mapper扫描，这里不需要配置了。
+    必须遵循：mapper.xml和mapper.java文件同名且在一个目录 
+     -->
+
+    <!-- <mappers>
+    
+    </mappers> -->
+</configuration>

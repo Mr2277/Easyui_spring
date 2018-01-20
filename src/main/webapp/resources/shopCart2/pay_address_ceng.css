@@ -1,0 +1,191 @@
+﻿.popWrap, .ctWrap,.atWrap {
+	padding: 5px;
+	width: 700px;
+	background: url(../images/wrapbj.png);
+	position: absolute;
+	top: 20px;
+	left: 0;
+	z-index: 9990;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	text-align: left;
+}
+
+.popWrap1, .ctWrap1,.atWrap1 {
+	padding: 5px;
+	width: 550px;
+	background: url(../images/wrapbj.png);
+	position: absolute;
+	top: 20px;
+	left: 0;
+	z-index: 9990;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	text-align: left;
+}
+
+.popBj {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	display: none;
+}
+
+.popBj .bg {
+	background: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	filter: alpha(opacity=20);
+	opacity: 0.2;
+}
+
+.popBj .bdWrap {
+	position: absolute;
+	left: 50%;
+	width: 530px;
+	margin: 10px 0 0 -270px
+}
+
+.popBj .ctWrap {
+	background-image: url(../images/wrapbj2.png);
+	width: 700px;
+	position: static;
+	z-index: 998;
+	overflow: hidden;
+}
+
+.popMain {
+	background: #fff;
+	height: 100%;
+	width: 100%;
+	position: relative
+}
+
+.popBj .bdWrap .bd {
+	padding: 20px;
+	text-aligh: center;
+}
+
+.popBj .bdWrap .bd span {
+	display: block;
+	height: 25px;
+	float: left;
+	margin-left: 30px;
+	color: #cc0033;
+}
+
+.popBj .bdWrap .bd select {
+	width: 200px;
+	height: 25px;
+	float: left
+}
+
+.ctWrap .hd {
+	height: 24px;
+	line-height: 24px;
+	text-indent: 12px;
+	background: #efefef;
+	font-weight: bold;
+	_width: 540px;
+}
+
+.ctWrap1 .hd1 {
+	height: 24px;
+	line-height: 24px;
+	text-indent: 12px;
+	background: #efefef;
+	font-weight: bold;
+	_width: 540px;
+}
+
+.close_02 {
+	background: url(../images/close_01.png) 0 0  no-repeat scroll transparent;
+	width: 9px;
+	height: 9px;
+	overflow: hidden;
+}
+
+.close_02 {
+	background-position: 0 0;
+	display: inline-block;
+	position: absolute;
+	top: 8px;
+	right: 8px;
+}
+
+.close_02:hover {
+	background-position: -10px 0;
+}
+
+.main03 {
+	width: 540px;
+	padding-left: 60px;
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+
+.main04 {
+	display: block;
+	width: 140px;
+	height: 40px;
+	margin-left: 158px;
+}
+
+.main04 div {
+	display: block;
+	width: 60px;
+	height: 25px;
+	float: left;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 25px;
+	background: #333333;
+	margin-right: 10px;
+	font-weight: bold;
+}
+/*?????????*/
+
+
+.label {
+	padding-top: 8px;
+}
+
+.btnn {
+	text-align: center;
+	margin-top: 5px;
+	color: #00F;
+}
+
+.wg_chengwei {
+	position: relative;
+}
+
+#span_sex {
+	display: inline;
+	float: none;
+	margin-left: 0;
+	top: -5px;
+	position: relative;
+}
+
+.wg_chengwei>input[type="radio"] {
+	width: initial;
+}
+
+.wg_chengwei>label {
+	top: -5px;
+	position: relative;
+}
+
+
+
+
+
+
+
